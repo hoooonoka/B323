@@ -1,0 +1,89 @@
+START PROCESSING FILE: Test 7 Crozzle.txt
+error 1: code 9003: word (NAT) is not in the word list
+END PROCESSING FILE: Test 7 Crozzle.txt
+
+START PROCESSING FILE: Test 7 Configuration.txt
+END PROCESSING FILE: Test 7 Configuration.txt
+
+START PROCESSING FILE: Test 7 Wordlist.txt
+END PROCESSING FILE: Test 7 Wordlist.txt
+
+START PROCESSING FILE: Marking 1 Crozzle.txt
+END PROCESSING FILE: Marking 1 Crozzle.txt
+
+START PROCESSING FILE: Marking 1 Configuration.txt
+END PROCESSING FILE: Marking 1 Configuration.txt
+
+START PROCESSING FILE: Marking 1 Wordlist.txt
+END PROCESSING FILE: Marking 1 Wordlist.txt
+
+START PROCESSING CROZZLE:
+END PROCESSING CROZZLE:
+
+START PROCESSING FILE: Marking 2 Crozzle.txt
+error 1: code 5001: invalid symbol in crozzle file item (=3,ANGELA,3)
+error 2: code 5001: invalid symbol in crozzle file item (=3,ALAN,123)
+error 3: code 9002: word data (ROW=,CATO,3) is missing data in field 1
+error 4: code 9004: word ($#@$#@) is not alphabetic
+error 5: code 3002: column value (XYZ) is not an integer
+error 6: code 9002: word data (ROW=6,,1) is missing data in field 2
+error 7: code 9002: word data (ROW=8,GARY,) is missing data in field 3
+error 8: code 3001: row value (12) is not in the range 1 to 10, inclusive
+error 9: code 3001: row value (ABC) is not an integer
+error 10: code 9003: word (VIC) is not in the word list
+error 11: code 9002: word data (COLUMN=,CENA,1) is missing data in field 1
+error 12: code 9004: word (???) is not alphabetic
+error 13: code 3002: column value (7.5) is not an integer
+error 14: code 3001: row value (9.5) is not an integer
+END PROCESSING FILE: Marking 2 Crozzle.txt
+
+START PROCESSING FILE: Marking 2 Configuration.txt
+error 1: code 1001: key-value pair (MINIMUM_NUMBER_OF_UNIQUE_WORDS=abc), value is not an integer
+error 2: code 1001: key-value pair (UPPERCASE=TRUE), value is not matching the pattern ^(true|false)$
+error 3: code 1004: key-value pair (BGCOLOUR_EMPTY_TD=#7777777), colour is not a Hex colour code
+error 4: code 1004: key-value pair (BGCOLOUR_NON_EMPTY_TD=#fffffff), colour is not a Hex colour code
+error 5: code 1006: key-value pair (MAXIMUM_NUMBER_OF_ROWS=80), key already used
+error 6: code 1006: key-value pair (POINTS_PER_WORD=123), key already used
+error 7: code 6002: invalid key in key-value pair (@=0)
+error 8: code 1007: key (MINIMUM_NUMBER_OF_ROWS) is missing from the configuration file
+error 9: code 1007: key (MINIMUM_NUMBER_OF_GROUPS) is missing from the configuration file
+error 10: code 1009: key (A) is missing from the non-intersection points
+END PROCESSING FILE: Marking 2 Configuration.txt
+
+START PROCESSING FILE: Marking 2 Wordlist.txt
+error 1: code 10001: non-alphabetic value (VIC.) in field 38 of the wordlist
+error 2: code 10001: non-alphabetic value ("WILMA") in field 40 of the wordlist
+error 3: code 10001: non-alphabetic value (O'NEIL) in field 42 of the wordlist
+error 4: code 10001: non-alphabetic value (123) in field 44 of the wordlist
+error 5: code 10002: missing word in field 45 of the wordlist
+error 6: code 10001: non-alphabetic value (????) in field 50 of the wordlist
+error 7: code 10001: non-alphabetic value (PRENTICE-HALL) in field 52 of the wordlist
+error 8: code 10001: non-alphabetic value (JAMES COOK) in field 54 of the wordlist
+END PROCESSING FILE: Marking 2 Wordlist.txt
+
+START PROCESSING FILE: Marking 3 Crozzle.txt
+END PROCESSING FILE: Marking 3 Crozzle.txt
+
+START PROCESSING FILE: Marking 3 Configuration.txt
+END PROCESSING FILE: Marking 3 Configuration.txt
+
+START PROCESSING FILE: Marking 3 Wordlist.txt
+END PROCESSING FILE: Marking 3 Wordlist.txt
+
+START PROCESSING CROZZLE:
+error 1: code 11007: the number of horizontal words is 14, but this is not within [1, 10]
+error 2: code 11001: the number of vertical words intersecting ANGELA is 5, but this is not within [1, 4]
+error 3: code 11003: the number of times LE occurs is 5, but this is not within [1, 3]
+error 4: code 11005: the number of groups of connected words is 3, but this is not within [2, 2]
+END PROCESSING CROZZLE:
+
+START PROCESSING FILE: Test 9 Crozzle.txt
+error 1: code 9003: word (NAT) is not in the word list
+END PROCESSING FILE: Test 9 Crozzle.txt
+
+START PROCESSING FILE: Test 9 Configuration.txt
+END PROCESSING FILE: Test 9 Configuration.txt
+
+START PROCESSING FILE: Test 9 Wordlist.txt
+END PROCESSING FILE: Test 9 Wordlist.txt
+

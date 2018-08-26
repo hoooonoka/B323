@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="65d9e1d6-701f-4337-b646-099561e96fa0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://sit323.azurewebsites.net/WordGroupService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WordGroupService.xsd" MetadataType="Schema" ID="b6248357-73cf-4242-83b7-41a65d4bba4a" SourceId="1" SourceUrl="http://sit323.azurewebsites.net/WordGroupService.svc?xsd=xsd1" />
+    <MetadataFile FileName="WordGroupService.disco" MetadataType="Disco" ID="a3534fed-254d-4dd5-8243-26cef88954bd" SourceId="1" SourceUrl="http://sit323.azurewebsites.net/WordGroupService.svc?disco" />
+    <MetadataFile FileName="WordGroupService.wsdl" MetadataType="Wsdl" ID="c7d66981-ab7d-4d59-9ee9-c94b547fe31d" SourceId="1" SourceUrl="http://sit323.azurewebsites.net/WordGroupService.svc?wsdl" />
+    <MetadataFile FileName="WordGroupService1.xsd" MetadataType="Schema" ID="643ffc43-028c-4c59-b303-6ab2790e0685" SourceId="1" SourceUrl="http://sit323.azurewebsites.net/WordGroupService.svc?xsd=xsd0" />
+    <MetadataFile FileName="WordGroupService2.xsd" MetadataType="Schema" ID="f37cfd0c-23c3-487d-999c-0ea4e2e828bf" SourceId="1" SourceUrl="http://sit323.azurewebsites.net/WordGroupService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

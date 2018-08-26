@@ -1,0 +1,30 @@
+// File dependencies.
+// Configuraton file.
+CONFIGURATION_FILE=".\Marking 6 Configuration.txt"
+
+// Word list file.
+WORDLIST_FILE=".\Marking 6 Wordlist.txt"
+
+// Crozzle Size.
+// The number of rows and columns.
+ROWS=8       // This crozzle will have 10 rows.
+COLUMNS=12
+
+// Word Data.
+ROW=4,ZARA,2
+COLUMN=2,CHAZ,1
+COLUMN=4,CARA,2
+ROW=2,AH,1
+ROW=2,CAM,4
+COLUMN=6,EMA,1
+ROW=1,EMMA,6
+COLUMN=8,MAC,1
+ROW=3,CAL,8
+COLUMN=10,ALAN,2
+ROW=5,SEAN,7
+COLUMN=7,SARA,5
+ROW=7,KARA,5
+COLUMN=5,SKY,6
+ROW=8,DAVY,2
+COLUMN=2,NED,6
+ROW=6,ANA,1

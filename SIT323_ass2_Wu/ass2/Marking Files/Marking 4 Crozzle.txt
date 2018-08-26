@@ -1,0 +1,37 @@
+// File dependencies.
+// Configuraton file.
+CONFIGURATION_FILE=".\Marking 4 Configuration.txt"
+
+// Word list file.
+WORDLIST_FILE=".\Marking 4 Wordlist.txt"
+
+// Crozzle Size.
+// The number of rows and columns.
+ROWS=10       // This crozzle will have 10 rows.
+COLUMNS=15
+
+// Word Data.
+ROW=5,ZUZANNY,5
+COLUMN=5,KIZZY,3
+COLUMN=7,EZZARD,4
+ROW=6,CRUZ,2
+COLUMN=11,YAZMIN,5
+ROW=7,LIZZIE,9
+ROW=3,ZACK,2
+COLUMN=2,ROZY,1
+ROW=1,RYLEY,2
+COLUMN=9,AYDEN,1
+ROW=2,YAZMINE,9
+COLUMN=11,IZA,1
+COLUMN=14,ENZO,1
+COLUMN=3,ROXY,6
+ROW=9,ZAYNE,1
+COLUMN=1,LIZ,7
+ROW=4,ROY,13
+COLUMN=15,YEE,4
+COLUMN=13,VIC,6
+COLUMN=13,VICK,6
+COLUMN=13,VICKY,6
+ROW=9,KAY,13
+ROW=10,VON,9
+ROW=10,IVON,8
